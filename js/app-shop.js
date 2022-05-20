@@ -294,7 +294,7 @@ const animItems3 = document.querySelectorAll('._anim-items3');
 
 
 async function getProducts() {
-    const file = "json/products.json";
+    const file = "json/json1/products.json";
     let response = await fetch(file, {
         method: "GET"
     });
